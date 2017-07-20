@@ -17,8 +17,8 @@ nfs_export_dir = "/home/cje"
 # name of new user
 user = "cje"
 
-# path to public ssh key
-public_key = "/Users/jbert/.ssh/id_rsa.pub"
+# path to public ssh key, replace {user} with an actual user
+public_key = "/Users/{user}/.ssh/id_rsa.pub"
 
-# domain name
-domain = "jimmyjam5000.com"
+# domain name, replace snakeoil.dom with an actual domain (required)
+domain = "snakeoil.dom"
