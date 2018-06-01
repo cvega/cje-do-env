@@ -19,7 +19,7 @@ then
   cje prepare cluster-init
 fi
 
-# fill in config file
+# fill in config
 ./configure.sh
 
 # apply
